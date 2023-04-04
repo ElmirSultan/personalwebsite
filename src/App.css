@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+body{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow-x: hidden;
+  background-color:#000;
+  margin: 0;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0;
+}
+.appjsx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.real-gangsta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+::-webkit-scrollbar{
+  width: 0.5rem;
+  background-color: inherit;
+}
+::-webkit-scrollbar-thumb{
+  width: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+.profilePhoto{
+  width: 40rem;
+  position: absolute;
+  top:30rem;
+  left: 3rem;
+  
+}
+.profilePhoto img{
+  width: 20%;
+  border: 4px solid black;
+  border-radius: 70%;
+  box-shadow: 0px 0px 3rem #000;
+  
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id":0,
+        "nameOfProgram":"HTML & CSS",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676037623/486-4866189_html-css-logo-png-transparent-png-removebg-preview_uicudf.png"
+    },
+    {
+        "id":1,
+        "nameOfProgram":"Java Script",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676036855/js_wtvzy7.png"
+    },
+    {
+        "id":2,
+        "nameOfProgram":"Node JS",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676036855/nodejs_vetwkn.png"
+    },
+    {
+        "id":3,
+        "nameOfProgram":"JAVA",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676036855/java_p83omq.png"
+    },
+    {
+        "id":4,
+        "nameOfProgram":"Python",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676036855/py_xfajpo.jpg"
+    },
+    {
+        "id":5,
+        "nameOfProgram":"React",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676037383/reactbg_kyhfd7.png"
+    },
+    {
+        "id":6,
+        "nameOfProgram":"SQL",
+        "imageOfProgram":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676065476/sql_ahq3rs.png"
+    }
+]

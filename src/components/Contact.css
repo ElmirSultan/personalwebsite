@@ -1,0 +1,195 @@
+.contact{
+    text-align: center;
+    padding-left: 3rem;
+    margin-top: 8rem;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3rem;
+    margin-bottom: 10rem;
+}
+.contact h1{
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+.contactLetter{
+    font-size: 2rem;
+    border: 3px solid #aaa;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+.contactLetter span{
+    color: green;
+}
+.sendButton{
+    background-color: rgb(25, 190, 25);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+.sendButton:hover{
+    background-color: rgb(246, 246, 246);
+    color: rgb(25, 190, 25);
+}
+.formSection{
+    z-index: 0;
+    border: 3px solid rgb(25, 190, 25);
+    box-shadow: 0px 0px 3rem rgb(25, 190, 25);
+    position: relative;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 35rem;
+    display: none;
+    background-color: inherit;
+    color: #ffffffe3;
+    height: 42rem;
+
+}
+.formSection form{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+}
+.formSection form label{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.formSection form input{
+    width: 30rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: inherit;
+    color: #fff;
+    outline: none;
+    border: 1px solid #b5b3b370;
+}
+
+
+.topicText{
+    width: 30rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: inherit;
+    color: #fff;
+    outline: none;
+    border: 1px solid #b5b3b370;
+}
+.submitButton{
+    color: white;
+    background-color: rgb(25, 190, 25);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1rem;
+    cursor: a;
+    transition: all .3s ease-in;  
+}
+.submitButton:hover{
+    transform: scale(0.9);
+    background-color:rgb(32, 132, 32) ;
+
+}
+
+.closeIcon{
+    position: absolute;
+    color: rgb(212, 16, 16);
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.closeIcon:hover{
+    transform: scale(1.2);
+}
+.aktiv{
+    display: flex;
+}
+.completed{
+    border-radius: 2rem;
+    display: none;
+    width: 25rem;
+    padding: 5rem;
+    border: 3px solid rgb(25, 190, 25);
+    box-shadow: 0px 0px 3rem rgb(25, 190, 25);
+    background-color: inherit;
+    transition: all .6s ease-in-out;
+}
+.completed.opened{
+    display: flex;
+    flex-direction: column;
+}
+.completed p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.completed i{
+    font-size: 8rem;
+    color:  rgb(25, 190, 25);
+}
+.connection{
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connection .contactPhoto{
+    width: 15rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 5rem rgb(156, 9, 9);
+}
+.connection .contactPhoto img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.connection h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.connection p{
+    font-size: 2rem;
+}
+.connection .contactLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+.connection .contactLinks a{
+    font-size: 2rem;
+    font-weight: 500;
+    transition: all .5s ease-in;
+}
+.connection .contactLinks .instagramLink:hover{
+    color: rgb(142, 31, 152);
+}
+.connection .contactLinks a:hover{
+    color: rgb(32, 88, 167);
+}
+@media(max-width:768px){
+    .contact h1{
+        font-size: 4rem;
+    }
+    .contact .contactLetter{
+        font-size: 1.6rem;
+    }
+    .contact .formSection label{
+        font-size: 1.6rem;
+    }
+    .contact .formSection input{
+       font-size: 1.4rem;
+    }
+}

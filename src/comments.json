@@ -1,0 +1,67 @@
+[
+    {
+        "id":0,
+        "name":"Anvar Khalid",
+        "instagramOfUser":"https://www.instagram.com/anvarkhalid_/",
+        "instagramName":"anvarkhalid_",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676214295/anvarkhalid_plf2gz.jpg",
+        "comment":"Elmir Sultan soyadina layiq , brend bir telebedir. O menim en savadli telebelerimden biridir ve sadeliyi onun yoluna ishiq sacacaq"
+    },
+    {
+        "id":1,
+        "name":"Oktay Afandi",
+        "instagramOfUser":"https://www.instagram.com/oktayafandi/",
+        "instagramName":"oktayafandi",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676215863/oktayafandi_nqtdxx.jpg",
+        "comment":"Elmir chox chalishqan ve istedadli telebedir. Gelecekde ugurlu bir developer olacagina shupem yoxdur :)"
+          
+    },
+    {
+        "id":2,
+        "name":"İlkin Khambilov",
+        "instagramOfUser":"https://www.instagram.com/mr.khambilov/",
+        "instagramName":"mr.khambilov",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676399285/ilkin_dftak2.jpg",
+        "comment":"Ejdaha kimi developer yetishir gözümüzün qabağında)"  
+    },
+    {
+        "id":3,
+        "name":"Alpay Abdullayev",
+        "instagramOfUser":"https://www.instagram.com/alphay09/",
+        "instagramName":"alphay09",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676384162/alpay_j6m9to.jpg",
+        "comment":"Elmir bey, size gelecek islerinizde ugurlar. Sizinle birge islemek arzusu ile."  
+    }, {
+        "id":4,
+        "name":"Yunis Aslanov",
+        "instagramOfUser":"https://www.instagram.com/llll.yunis.llll/",
+        "instagramName":"llll.yunis.llll",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676565214/yuniss_zfpyot.jpg",
+        "comment":"Elmir cox bilikli olmasina regmen sadeliyi ve tevezokarligi ile ferqlenir, onunla birge fealiyyet gostermekden zovq duyacaqsiniz."  
+    },
+    {
+        "id":5,
+        "name":"Mehemmed Bulut",
+        "instagramOfUser":"https://www.instagram.com/mehemmed__bulut/",
+        "instagramName":"mehemmed_bulut",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676304722/mb_zss8fr.jpg",
+        "comment":"Həyatımda gördüyüm ən əzmli proqramçı.Araşdırma bacarığı ən yüksək proqramçılardan biridi ve gələcəyin ən ehtiyyac duyulacaqları arasındadır."  
+    },
+    {
+        "id":6,
+        "name":"Burxan Hasanli",
+        "instagramOfUser":"https://www.instagram.com/burxan.hasanli/",
+        "instagramName":"burxan.hasanli",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676305325/burxan1_liunsz.jpg",
+        "comment":"Bir Proqramcida en vacib weylerden biri cetinliklerle bas elemek meqsedine catmaq ucun qabagina cixan maneleri arawdirib awmaqdi.Geleceyde meqsedine catmiw proqramcilardan biri"  
+    },
+    {
+        "id":7,
+        "name":"Ruhin",
+        "instagramOfUser":"https://www.instagram.com/ruhin.alio/",
+        "instagramName":"ruhin.alio",
+        "imageOfUser":"https://res.cloudinary.com/dxhdjso8d/image/upload/v1676451437/ruhin_mfu8wb.jpg",
+        "comment":"Fərqliliyi ilə seçilən vədə gələcəkdəki karyeramda tək kurs yoldaşım olaraq deyil iş yoldaşım olaraqda görmək istəyəcəyim, fərqli mövzuları öyrənməyə hər daim həvəs və istəyi olan bir adam kimi tanıdım səni. Ki bunada çox şadam. "  
+    }
+  
+]

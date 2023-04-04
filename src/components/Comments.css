@@ -1,0 +1,112 @@
+.comments{
+    text-align: center;
+    margin-top: 10rem;
+    border-bottom: 1px solid #747171;
+    padding-bottom: 6rem;
+    
+}
+.comments h1{
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    
+}
+
+.imageOfPerson{
+    width: 15rem;
+    border-radius: 50%;
+    height: 15rem;
+}
+.commentCardsContainer{
+    display: flex;
+    gap: 4rem;
+}
+.commentcards{
+    width: 95%;
+    gap: 3rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 3rem rgb(241, 231, 233);
+}
+.swiper-wripper{
+    width: 100%;
+    margin: 0;
+}
+.swiper-slide{
+    padding: 3rem;
+}
+.commentcards h4{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.commentcards .top-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.link a{
+    font-weight: 700;
+    transition: all .4s ease-in-out;
+}
+.link a:hover{
+    transform: scale(1.025);
+    color: #8E07FD;
+}
+.commentcards .bottom-side{
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+}
+.commentcards .bottom-side p{
+    font-size: 2.5rem;
+}
+
+@media(max-width:1200px){
+    .comments h1{
+        font-size: 4rem;
+    }
+    .comments .commentcards{
+        width: 90%;
+    }
+    
+}
+@media(max-width:768px){
+    .commentcards {
+        padding: 2rem;
+        border: none;
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .comments .commentcards h4{
+        font-size: 2rem;
+    }
+    .comments .commentcards p{
+        font-size: 1.6rem;
+    }
+  
+}
+@media(max-width:500px){
+    .commentcards .top-side .imageOfPerson{
+        width: 10rem;
+        border-radius: 50%;
+        height: 10rem;
+    }
+    .commentcards .top-side .name h4{
+        font-size: 1.6rem;
+    }
+    .commentcards .top-side .link a{
+        font-size: 1rem;
+    }
+    .commentcards .bottom-side p{
+        font-size: 1.4rem;
+    }
+}
